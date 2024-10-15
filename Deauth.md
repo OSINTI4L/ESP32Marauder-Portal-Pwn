@@ -25,7 +25,7 @@ Where,
 
 ```wlan0mon``` - Specifies wireless adapter interface to use.
 
-You will then see a list of scanned access points display in the terminal. Use the keyboard shortcut ```ctrl + c``` to stop scanning when you see the access point name (ESSID) listed. Highlight the entire line of data points for the access point of the evil portal and set that information aside (in something like a text editor) to be used next.
+You will then see a list of scanned access points display in the terminal. Use the keyboard shortcut ```ctrl + c``` to stop scanning when you see the evil portal access point name (ESSID) listed. Highlight the entire line of data points for the access point of the evil portal and set that information aside (in something like a text editor) to be used next.
 
 ![airodump](https://github.com/user-attachments/assets/30d831d7-b472-4f95-a923-9fffcfe555e1)
 
