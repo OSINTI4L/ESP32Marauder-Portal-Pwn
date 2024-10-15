@@ -5,4 +5,4 @@ Are you tired of local skids terrorizing your favorite starbucks with Flipper Ze
 
 For the lolz of course.
 
-Here you will find walk-throughs for how to spam, crash, and deauth Flipper Zero evil portals, finally taking back your starbucks.
+Here you will find walk-throughs for how to spam, crash, and deauth Flipper Zero evil portals, allowing you to finally take back your starbucks.
