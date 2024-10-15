@@ -25,9 +25,9 @@ Once this is completed, save and close out of the proxy settings.
 
 ![portalshow](https://github.com/user-attachments/assets/005f2299-e454-411c-8ad2-74dee0c8950e)
 
-7. Navigate back to Burpsuite and you will notice that your http GET request has been captured (this is the raw data request of your attempt to login.
+7. Navigate back to Burpsuite and you will notice that your http GET request has been captured, this is the raw data request of your attempt to login.
 
-8. Right click in the data field of the http GET request and select "Send to Intruder", once complete turn "Intercept Off" by selecting it.
+8. Right click in the data field of the http GET request and select "Send to Intruder", once complete, turn "Intercept Off" by selecting it.
 
 ![bs1](https://github.com/user-attachments/assets/0af03ad6-f9cd-4827-ae16-a4ceaa413fe7)
 
@@ -45,7 +45,7 @@ Select "Payload set: 2" and "Payload type: Simple list". In the "Payload setting
 
 ![bs4](https://github.com/user-attachments/assets/0dee6ef4-c9ac-42fb-be71-0b0edc295e9c)
 
-When finished, select "Start Attack" on the top right of the Burpsuite GUI. This will start our spam against the evil portal.
+12. When finished, select "Start Attack" on the top right of the Burpsuite GUI. This will start our spam against the evil portal.
 
 ### You have successfully pwned the evil portal :)
 
