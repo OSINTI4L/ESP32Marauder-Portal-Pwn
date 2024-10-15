@@ -19,6 +19,28 @@ We can confirm this by using the ```iwconfig``` command once again. You should n
 
 Where,
 
-```sudo``` - Gives root privileges
-```airodump-ng``` - Is the tool used to scan for networks
-```wlan0mon``` - Our wireless adapter interface
+```sudo``` - Gives root privileges.
+
+```airodump-ng``` - Is the tool used to scan for networks.
+
+```wlan0mon``` - Specifies wireless adapter interface to use.
+
+You will then see a list of scanned access points display in the terminal. Use the keyboard shortcut ```ctrl + c``` to stop scanning when you the access point name (ESSID). Highlight the entire line of data points for the access point of the evil portal and set that information aside (in something like a text editor) to be used next.
+
+![airodump](https://github.com/user-attachments/assets/30d831d7-b472-4f95-a923-9fffcfe555e1)
+
+4. Now target the access point by using the command ```sudo airodump-ng --bssid xx:xx:xx:xx:xx:xx --channel x wlan0mon```, inputing the information of the evil portal that we have recently set aside into the "x" positions.
+
+Where,
+
+```sudo``` - Gives root privileges.
+
+```airodump-ng``` - Is the tool used to scan for networks.
+
+```--bssid xx:xx:xx:xx:xx``` - Is the MAC address of the evil portal.
+
+```--channel x``` - Is the channel on which the evil portal is running.
+
+```wlan0mon``` - Specifies wireless adapter interface to use.
+
+Begin scanning. You will see all other access points are not displayed (only the evil portal) and any clients connected to the evil portal are displayed toward the bottom of the terminal window. After a few moments stop the scan with ```ctrl + c``` and then ```clear``` the terminal window.
