@@ -29,7 +29,7 @@ Where:
 
 5. When connected to the evilportal and you have run the above commands, you will see Hydra start to spam login credentials at the evilportal. After a short amount of time, you will see Hydra hang and no longer attempt to spam credentials. You will also see your machine disconnect from the evil portal. This is because,
 
-### You have successfully pwned your first Evil Portal.
+### you have successfully pwned your first Evil Portal.
 ![kaliviewhydra](https://github.com/user-attachments/assets/193bc121-2308-44e9-a7a2-ecb4bd4e6663)
 
 ![flipperviewhydra](https://github.com/user-attachments/assets/9e3615e4-de7b-4edc-a2d3-15b543f0eb38)
