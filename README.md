@@ -1,4 +1,4 @@
-# ESP32Marauder-PortalPwn
+# ESP32Marauder Portal Pwn
 ![f2](https://github.com/user-attachments/assets/c2b2fc38-ddbf-476f-946b-541e59064bfc)
 
 Are you tired of local skids terrorizing your favorite starbucks with Flipper Zero evil portals? Well why don't you use Kali Linux to pwn their evil portals? For the lolz of course.
