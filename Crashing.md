@@ -23,7 +23,7 @@ Where:
 
 ```-P /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a password file and specifies it to use the rockyou.txt wordlist.
 
-```http-get://172.0.0.1``` - Tells Hydra to use http-get request and to direct this attack on the IP address of 172.0.0.1.
+```http-get://172.0.0.1``` - Tells Hydra to use http-get request and to direct this attack at the IP address of 172.0.0.1.
 
 ```-t64``` - Tells Hydra how many to TASKS to run in parallel per target, the more TASKS, the faster the spam. This is the key to crashing the evilportal webserver (64 is the max supported number of TASKS).
 
