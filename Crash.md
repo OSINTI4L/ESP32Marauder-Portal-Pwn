@@ -12,7 +12,7 @@ It is important to note that the Flipper Zero Marauder app spins its' evilportal
 
 1. Once you have identified the evilportal SSID, start by connecting to it.
 2. (In Kali Linux), we will now be working out of the Terminal using hydra. Hydra is a bruteforcing tool used to credential spray login portals, but we will be using this to spam the evilportal at an accelerated rate, ultimately overloading the evilportal webserver and crashing it. To do this we will need a wordlist to load into hydra so that it has a source from which to spam credentials fom.
-3. The wordlist I will be using is the infamous ```rockyou.txt```. This wordlist is found in ```/usr/share/wordlists``` by default in Kali Linux.
+3. The wordlist I will be using is the infamous ```rockyou.txt```. This wordlist is found in ```/usr/share/wordlists``` by default in Kali Linux. If you have never used this wordlist before, you may need to extract it with the command ```wordlists```.
 4. We will then use the hydra syntax of ```hydra -L /usr/share/wordlists/rockyou.txt -P /usr/share/wordlists/rockyou.txt http-get://172.0.0.1 -t64```
 
 Where:
