@@ -44,3 +44,19 @@ Where,
 ```wlan0mon``` - Specifies wireless adapter interface to use.
 
 Begin scanning. You will see all other access points are not displayed (only the evil portal) and any clients connected to the evil portal are displayed toward the bottom of the terminal window. After a few moments stop the scan with ```ctrl + c``` and then ```clear``` the terminal window.
+
+5. The final step, we will now use ```aireplay-ng``` to deauth **ALL** clients off of the evil portal network. This can be accomplished by using the command ```sudo aireplay-ng --deauth 0 -a 11:22:33:44:55:66 wlan0mon```.
+
+Where,
+
+```sudo``` - Gives root privileges.
+```aireplay-ng``` - Is the tool that will inject deauthentication packets.
+```--deauth 0``` - Tells the tool to send an infinite number of deauth packets.
+```-a 11:22:33:44:55:66``` - Identifies the MAC address that the wireless adapter will spoof.
+```wlan0mon``` - Specifies wireless adapter interface to use.
+
+You will begin to see deauthentication packets being injected by your wireless adapter via the terminal. This can be stopped at any time by using ```ctrl + c```.
+
+![aireplay](https://github.com/user-attachments/assets/41e80b20-4724-496f-814d-ad3bfe836394)
+
+### Congratulations, you have successfully pwned the Evil Portal.
