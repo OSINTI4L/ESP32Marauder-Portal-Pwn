@@ -15,7 +15,7 @@ Once this is completed, save and close out of the proxy settings.
 
 3. Launch Burpsuite by using the command ```burpsuite``` in terminal or by searching for burpsuite in the tools menu and then proceed through the start up prompts.
 
-4. Navigate to the evil portal login prompt in your browser and then enable your proxy in the foxyproxy extension.
+4. Navigate to the evil portal login prompt in your browser and then enable your proxy in the foxyproxy extension by selecting it.
 
   ![1](https://github.com/user-attachments/assets/65cde396-20d0-40ab-90a7-8db81d257cb2)
 
