@@ -1,6 +1,5 @@
 # Crash Flipper Zero Evil Portals
-![image](https://github.com/user-attachments/assets/6fc03904-9cdf-4ff2-b34d-eecb66045a34)
-![image](https://github.com/user-attachments/assets/b29e4d5c-db24-4d10-8110-ce619457bc6e)
+![flipperviewhydra](https://github.com/user-attachments/assets/9e3615e4-de7b-4edc-a2d3-15b543f0eb38)
 
 Here you will learn how to crash evil portals.
 
@@ -31,5 +30,3 @@ Where:
 
 ### you have successfully pwned the Evil Portal.
 ![kaliviewhydra](https://github.com/user-attachments/assets/193bc121-2308-44e9-a7a2-ecb4bd4e6663)
-
-![flipperviewhydra](https://github.com/user-attachments/assets/9e3615e4-de7b-4edc-a2d3-15b543f0eb38)
