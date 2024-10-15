@@ -19,9 +19,9 @@ Where:
 
 ```hydra``` - Tells the terminal to use this tool.
 
-```-L /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a login file and specifies it to use the rockyou.txt wordlists.
+```-L /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a login file and specifies it to use the rockyou.txt wordlist.
 
-```-P /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a password file and specifies it to use the rockyou.txt wordlists.
+```-P /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a password file and specifies it to use the rockyou.txt wordlist.
 
 ```http-get://172.0.0.1``` - Tells Hydra to use http-get request and to direct this attack on the IP address of 172.0.0.1.
 
