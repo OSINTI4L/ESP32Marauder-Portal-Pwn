@@ -1,5 +1,24 @@
 # Deauth Flipper Zero Evil Portals
-![aircrack](https://github.com/user-attachments/assets/9f3d7571-9799-45e3-af53-d4d243c3076c)
 
-Have you ever attempted to deauth a device that is designed to deauth? Deauth inception if you will.
-This guide will teach you to use the [aircrack-ng](https://www.kali.org/tools/aircrack-ng/) suite shipped in [Kali Linux](https://kali.org).
+Have you ever attempted to deauth a device that is designed to deauth devices? Deauth inception if you will.
+This guide will teach you to use the [aircrack-ng](https://www.kali.org/tools/aircrack-ng/) suite shipped in [Kali Linux](https://kali.org) to deauth Flipper Zero Evil Portals, kicking **ALL** clients connected to the portal off the network; subsequently saving the day of course.
+
+For this guide you will need a wifi adapter that is capable of monitor mode and packet injection. I chose to use an Alfa AWUS036ACM as it is plug and play with Kali Linux.
+
+1. Once you have spun up Kali and connected your wifi adapter, we must start by killing any processes that may interfere with our adapter. This can be accomplished by entering ```sudo airmon-ng check kill``` in terminal.
+
+3. Typically, Kali Linux labels the wireless adapter interface ```wlan0```, we can see what it is labeled by using the ```iwconfig``` command in the terminal. Once we have identified the interface of our wireless adapter we must use the ```airmon-ng``` tool to place our wifi adapter into monitor mode. This will allow us to monitor wireless packets in transit as well as perform packet injection attacks. This can be accomplished with ```sudo airmon-ng start wlan0```.
+
+![monmode](https://github.com/user-attachments/assets/ea224eef-25b7-4b16-87ac-1543c5556467)
+
+We can confirm this by using the ```iwconfig``` command once again. You should now see the name of the wireless adpater change from ```wlan0``` to ```wlan0mon```, as well as ```Mode: Monitor```.
+
+![iwconfig](https://github.com/user-attachments/assets/bbbc085f-57d3-4f70-9f22-6705a53384e2)
+
+3. Once you have successfully placed your wireless adapter into monitor mode, it is time to scan for wireless networks. This can be accomplished with ```sudo airodump-ng wlan0mon```.
+
+Where,
+
+```sudo``` - Gives root privileges
+```airodump-ng``` - Is the tool used to scan for networks
+```wlan0mon``` - Our wireless adapter interface
