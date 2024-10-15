@@ -1,7 +1,7 @@
 # Deauth Flipper Zero Evil Portals
 
 Have you ever attempted to deauth a device that is designed to deauth devices? Deauth inception if you will.
-This guide will teach you to use the [aircrack-ng](https://www.kali.org/tools/aircrack-ng/) suite shipped in [Kali Linux](https://kali.org) to deauth Flipper Zero Evil Portals, kicking **ALL** clients connected to the portal off the network; subsequently saving the day of course.
+This guide will teach you to use the [aircrack-ng](https://www.kali.org/tools/aircrack-ng/) suite shipped in [Kali Linux](https://kali.org) to perform deauth attacks against Flipper Zero Evil Portals, kicking **ALL** clients connected to the portal off the network; subsequently saving the day of course.
 
 For this guide you will need a wifi adapter that is capable of monitor mode and packet injection. I chose to use an Alfa AWUS036ACM as it is plug and play with Kali Linux.
 
