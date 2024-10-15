@@ -37,16 +37,17 @@ Once this is completed, save and close out of the proxy settings.
 
 10. Select "Cluster Bomb" for the Attack type and then select the Paylods tab directly above "Choose an attack type".
 
-11. Here we will need a wordlist to load into Burpsuite so we can spray the evil portal with spam. I chose to use my own, but any wordlist will work. Select "Payload set: 1" and Payload type: Simple list". In the "Payload settings [Simple List]" area type "PORTAL PWN" into the text bar next to "Add", and then add it by selecting "Add".
+11. Here we will need a wordlist to load into Burpsuite to spray at the evil portal. I chose to use my own, but any wordlist will work. Select "Payload set: 1" and Payload type: Simple list". In the "Payload settings [Simple List]" area type "PORTAL PWN" into the text bar next to "Add", and then add it by selecting "Add".
 
 ![bs3](https://github.com/user-attachments/assets/5cc65b6c-78ac-42d0-b107-dca8bc44d11f)
 
-Select "Payload set: 2" and Payload type: Simple list". In the "Payload settings [Simple List]" area select "Load" and select your wordlist of choice.
+Select "Payload set: 2" and "Payload type: Simple list". In the "Payload settings [Simple List]" area select "Load" and select your wordlist of choice.
 
 ![bs4](https://github.com/user-attachments/assets/0dee6ef4-c9ac-42fb-be71-0b0edc295e9c)
 
 When finished, select "Start Attack" on the top right of the Burpsuite GUI. This will start our spam against the evil portal.
 
-#You have successfully pwned the evil portal.
+# You have successfully pwned the evil portal :)
 
 ![kaliburpview](https://github.com/user-attachments/assets/71898c57-ead2-4229-8249-3cd59f708485)
+![flipperburpview](https://github.com/user-attachments/assets/52652c8d-45d3-46a0-a4e3-c32c8a864512)
