@@ -1,4 +1,4 @@
-# How To Crash Flipper Zero Evil Portals
+# Crash Flipper Zero Evil Portals
 ![image](https://github.com/user-attachments/assets/6fc03904-9cdf-4ff2-b34d-eecb66045a34)
 ![image](https://github.com/user-attachments/assets/b29e4d5c-db24-4d10-8110-ce619457bc6e)
 
