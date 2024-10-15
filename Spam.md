@@ -31,7 +31,7 @@ Once this is completed, save and close out of the proxy settings.
 
 ![bs1](https://github.com/user-attachments/assets/0af03ad6-f9cd-4827-ae16-a4ceaa413fe7)
 
-9. Navigate to the Intruder tab where you will see your http GET request. Select "Auto" (on the far right), which will highlight the username and password field. This will tell Burpsuite which areas of the http GET request to spray.
+9. Navigate to the Intruder tab where you will see your http GET request. Select "Auto" (on the far right), which will highlight the username and password fields. This will tell Burpsuite which areas of the http GET request to spray.
 
 ![bs2](https://github.com/user-attachments/assets/6ef5a99d-8837-4cd9-b6f8-c809e5b06017)
 
