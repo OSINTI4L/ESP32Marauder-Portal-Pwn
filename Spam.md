@@ -19,14 +19,34 @@ Once this is completed, save and close out of the proxy settings.
 
   ![1](https://github.com/user-attachments/assets/65cde396-20d0-40ab-90a7-8db81d257cb2)
 
-5. Once you have Burpsuite open and your proxy enabled, navigate to the ```Proxy``` tab and turn ```Intercept on``` by selecting it in Burpsuite.
+5. Once you have Burpsuite open and your proxy enabled, navigate to the "Proxy" tab and turn "Intercept On" by selecting it in Burpsuite.
 
-6. Navigate back to the evil portal login portal and enter "username" and "password" into the respective username and password fields.
+6. Navigate back to the evil portal login portal and enter "username" and "password" into the respective username and password fields and select login.
 
-7. Navigate back to Burpsuite and you will notice that your http GET request has been captured (this is the raw data request of you attempt to login.
+![portalshow](https://github.com/user-attachments/assets/005f2299-e454-411c-8ad2-74dee0c8950e)
 
-8. Right click in the data field of the http GET request and select ```Send to Intruder```, once complete turn ```Intercept off``` by selecting it.
+7. Navigate back to Burpsuite and you will notice that your http GET request has been captured (this is the raw data request of your attempt to login.
+
+8. Right click in the data field of the http GET request and select "Send to Intruder", once complete turn "Intercept Off" by selecting it.
 
 ![bs1](https://github.com/user-attachments/assets/0af03ad6-f9cd-4827-ae16-a4ceaa413fe7)
 
-9. Navigate to the Intruder tab where you will see your http GET request. Select ```Add 
+9. Navigate to the Intruder tab where you will see your http GET request. Select "Auto" (on the far right), which will highlight the username and password field. This will tell Burpsuite which areas of the http GET request to spray.
+
+![bs2](https://github.com/user-attachments/assets/6ef5a99d-8837-4cd9-b6f8-c809e5b06017)
+
+10. Select "Cluster Bomb" for the Attack type and then select the Paylods tab directly above "Choose an attack type".
+
+11. Here we will need a wordlist to load into Burpsuite so we can spray the evil portal with spam. I chose to use my own, but any wordlist will work. Select "Payload set: 1" and Payload type: Simple list". In the "Payload settings [Simple List]" area type "PORTAL PWN" into the text bar next to "Add", and then add it by selecting "Add".
+
+![bs3](https://github.com/user-attachments/assets/5cc65b6c-78ac-42d0-b107-dca8bc44d11f)
+
+Select "Payload set: 2" and Payload type: Simple list". In the "Payload settings [Simple List]" area select "Load" and select your wordlist of choice.
+
+![bs4](https://github.com/user-attachments/assets/0dee6ef4-c9ac-42fb-be71-0b0edc295e9c)
+
+When finished, select "Start Attack" on the top right of the Burpsuite GUI. This will start our spam against the evil portal.
+
+#You have successfully pwned the evil portal.
+
+![kaliburpview](https://github.com/user-attachments/assets/71898c57-ead2-4229-8249-3cd59f708485)
