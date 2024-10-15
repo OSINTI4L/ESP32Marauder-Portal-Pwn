@@ -3,4 +3,4 @@
 
 Are you tired of local skids terrorizing your favorite starbucks with Flipper Zero evil portals, stopping you from enjoying your mocha latte and tiktok doom scrolling? Well why don't you pwn them? For the lolz of course.
 
-Here you will find walk-throughs for how to spam, crash, and deauth Flipper Zero evil portals and finally take back your starbucks.
+Here you will find walk-throughs for how to spam, crash, and deauth Flipper Zero evil portals, finally taking back your starbucks.
