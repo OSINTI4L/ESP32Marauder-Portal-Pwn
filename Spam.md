@@ -3,7 +3,7 @@
 
 Nothing quite upsets a skid like watching their Flipper Zeros' SD card slowly fill with spam, not knowing how to stop it. We will be spamming Flipper Zero evil portals using [Burpsuite](https://www.kali.org/tools/burpsuite/) in [Kali Linux.](https://www.kali.org/)
 
-1. Burpsuite is a tool used for web application penetration testing. It works by allowing the user to intercept and manipulate web traffic occuring between the internet browser and the server in the form of things such as Http GET requests. In order for us to use this tool we will first need to setup a proxy. The easiest method to do this is by using the Firefox extension [FoxyProxy.](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+1. Burpsuite is a tool used for web application penetration testing. It works by allowing the user to intercept and manipulate web traffic occuring between the internet browser and the server in the form of things such as http GET requests. In order for us to use this tool we will first need to setup a proxy. The easiest method to do this is by using the Firefox extension [FoxyProxy.](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
 
 After adding the extension to the browser, select it, go to the "Proxies" tab and create a new proxy with the following selections,
 
