@@ -29,7 +29,7 @@ You will then see a list of scanned access points display in the terminal. Use t
 
 ![airodump](https://github.com/user-attachments/assets/30d831d7-b472-4f95-a923-9fffcfe555e1)
 
-4. Now target the access point by using the command ```sudo airodump-ng --bssid xx:xx:xx:xx:xx:xx --channel x wlan0mon```, inputing the information of the evil portal that we have recently set aside into the "x" positions.
+4. Now target scan the access point by using the command ```sudo airodump-ng --bssid xx:xx:xx:xx:xx:xx --channel x wlan0mon```, inputing the information of the evil portal that we have recently set aside into the "x" positions.
 
 Where,
 
