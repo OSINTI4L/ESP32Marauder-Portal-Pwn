@@ -21,7 +21,7 @@ Once this is completed, save and close out of the proxy settings.
 
 5. Once you have Burpsuite open and your proxy enabled, navigate to the "Proxy" tab in Burpsuite and turn "Intercept On" by selecting it.
 
-6. Navigate back to the evil portal login portal and enter "username" and "password" into the respective username and password fields and select login.
+6. Navigate back to the evil portal login prompt and enter "username" and "password" into the respective username and password fields and select login.
 
 ![portalshow](https://github.com/user-attachments/assets/005f2299-e454-411c-8ad2-74dee0c8950e)
 
