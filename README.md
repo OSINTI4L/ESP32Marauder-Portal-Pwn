@@ -6,3 +6,7 @@ Are you tired of local skids terrorizing your favorite starbucks with Flipper Ze
 For the lolz of course.
 
 Here you will find walk-throughs for how to crash, deauth, and spam Flipper Zero evil portals, allowing you to finally take back your starbucks.
+
+### - [Portal Pwn Crash](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Crash.md)
+### - [Portal Pwn Deauth](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Deauth.md)
+### - [Portal Pwn Spam](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Spam.md)
