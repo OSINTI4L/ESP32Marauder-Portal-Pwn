@@ -26,7 +26,7 @@ Where:
 
 ```-t64``` - Tells Hydra how many to TASKS to run in parallel per target, the more TASKS, the faster the spam. This is the key to crashing the evilportal webserver (64 is the max supported number of TASKS).
 
-5. When connected to the evilportal and you have run the above commands, you will see Hydra start to spam login credentials at the evilportal. After a short amount of time, you will see Hydra hang and no longer attempt to spam credentials. You will also see your machine disconnect from the evil portal. This is because,
+5. When connected to the evilportal and you have run the above commands, you will see Hydra start to spam login credentials at the evil portal. After a short amount of time, you will see Hydra hang and no longer attempt to spam credentials. You will also see your machine disconnect from the evil portal. This is because,
 
 ### you have successfully pwned the evil portal :)
 ![kaliviewhydra](https://github.com/user-attachments/assets/193bc121-2308-44e9-a7a2-ecb4bd4e6663)
