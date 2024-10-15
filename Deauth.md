@@ -63,4 +63,4 @@ You will begin to see deauthentication packets being injected by your wireless a
 
 ![aireplay](https://github.com/user-attachments/assets/41e80b20-4724-496f-814d-ad3bfe836394)
 
-### Congratulations, you have successfully pwned the Evil Portal.
+### Congratulations, you have successfully pwned the evil portal :)
