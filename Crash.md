@@ -1,8 +1,4 @@
-<div align="center">
-  
 # Crash Flipper Zero Evil Portals
-
-</div>
 
 ![flipperviewhydra](https://github.com/user-attachments/assets/9e3615e4-de7b-4edc-a2d3-15b543f0eb38)
 
