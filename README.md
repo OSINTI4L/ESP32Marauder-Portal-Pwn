@@ -14,7 +14,7 @@ These attacks work on multiple ESP32 devices running Marauder, not just the Flip
 
 <div align="center">
   
-## Walk-Throughs ↴
-## [↳ Portal Pwn Crash](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Crash.md) | [↳ Portal Pwn Deauth](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Deauth.md) | [↳ Portal Pwn Spam](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Spam.md)
+## Walk-throughs ↴
+## [Portal Pwn Crash](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Crash.md) | [Portal Pwn Deauth](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Deauth.md) | [Portal Pwn Spam](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Spam.md)
 
 </div>
