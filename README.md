@@ -13,5 +13,5 @@ When attacking devices other than the Flipper Zero with the Hydra crash method y
 <div align="center">
   
 ## ↓ Walk-throughs ↓
-## [Crash]() | [Deauth]() | [Spam]()
+## [Crash](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Crash.md) | [Deauth](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Deauth.md) | [Spam](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Spam.md)
 </div>
