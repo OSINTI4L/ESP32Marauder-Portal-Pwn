@@ -48,5 +48,6 @@ Select "Payload set: 2" and "Payload type: Simple list". In the "Payload setting
 12. When finished, select "Start Attack" on the top right of the Burpsuite GUI. This will start our spam against the evil portal.
 
 You have successfully pwned the evil portal.
+
 ![kaliburpview](https://github.com/user-attachments/assets/6980664a-49ad-4ee4-845f-9d7bc1f8344b)
 ![flipperburpview](https://github.com/user-attachments/assets/eeb59b02-7a1a-4e09-ac54-281c4b749dc8)
