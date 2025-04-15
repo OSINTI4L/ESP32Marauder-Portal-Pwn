@@ -4,6 +4,8 @@
 
 Here you will learn how to crash evil portals.
 
+**THIS WILL CRASH THE ENTIRE ESP32 DEVICE AND CAUSE A REBOOT (Flipper Zero, JCMK Marauder Devices, etc)**
+
 We will be utilizing the tools [Hydra](https://www.kali.org/tools/hydra/) and the [rockyou.txt wordlist](https://www.kali.org/tools/wordlists/) inside of [Kali Linux.](https://www.kali.org/)
 
 It is important to note that the Flipper Zero Marauder app spins its' evilportal webservers on IP address 172.0.0.1.
