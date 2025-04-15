@@ -2,9 +2,7 @@
 
 ![flipperviewhydra](https://github.com/user-attachments/assets/da556092-f7fd-4c43-b9ac-af14157eb67a)
 
-Here you will learn how to crash evil portals.
-
-**THIS WILL CRASH THE ENTIRE ESP32 DEVICE AND CAUSE A REBOOT (Flipper Zero, JCMK Marauder Devices, etc)**
+**THIS WILL CRASH THE ENTIRE ESP32 DEVICE AND CAUSE A RE-BOOT (Flipper Zero, JCMK Marauder Devices, etc)**
 
 We will be utilizing the tools [Hydra](https://www.kali.org/tools/hydra/) and the [rockyou.txt wordlist](https://www.kali.org/tools/wordlists/) inside of [Kali Linux.](https://www.kali.org/)
 
