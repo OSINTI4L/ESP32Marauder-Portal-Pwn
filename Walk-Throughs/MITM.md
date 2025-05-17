@@ -37,7 +37,7 @@ Where:
   
   `-M arp:remote`: Specifies that it is a man in the middle attack, and `METHOD:ARGS` are `arp:remote` which specifies ARP poisoning and to include outbound traffic through the gateway.
 
-4. Ettercap will then scan the IP address range of the EP network and build a hosts list of all clients connected to the EP; it will then start the ARP Poisoning attack:
+4. Ettercap will then scan the IP address range of the EP network and build a hosts list of clients connected to the EP; it will then start the ARP Poisoning attack:
 
 ![etterstartup](https://github.com/user-attachments/assets/ec6a95e6-828e-4e3a-bfb6-a72aa88ecadf)
 
