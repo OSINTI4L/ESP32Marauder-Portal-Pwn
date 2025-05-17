@@ -1,8 +1,11 @@
+<div align="center">
+
 # Crash Flipper Zero Evil Portals
 
 ![flipperviewhydra](https://github.com/user-attachments/assets/da556092-f7fd-4c43-b9ac-af14157eb67a)
 
 **THIS WILL CRASH THE ENTIRE ESP32 DEVICE AND CAUSE A REBOOT (Flipper Zero, JCMK Marauder Devices, etc)**
+</div>
 
 We will be utilizing the tools [Hydra](https://www.kali.org/tools/hydra/) and the [rockyou.txt wordlist](https://www.kali.org/tools/wordlists/) inside of [Kali Linux.](https://www.kali.org/)
 
@@ -17,15 +20,15 @@ It is important to note that the Flipper Zero Marauder app spins its' evilportal
 
 Where:
 
-```hydra``` - Tells the terminal to use this tool.
+```hydra```: Tells the terminal to use this tool.
 
-```-L /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a login file and specifies it to use the rockyou.txt wordlist.
+```-L /usr/share/wordlists/rockyou.txt```: Tells Hydra to use a login file and specifies it to use the rockyou.txt wordlist.
 
-```-P /usr/share/wordlists/rockyou.txt``` - Tells Hydra to use a password file and specifies it to use the rockyou.txt wordlist.
+```-P /usr/share/wordlists/rockyou.txt```: Tells Hydra to use a password file and specifies it to use the rockyou.txt wordlist.
 
-```http-get://172.0.0.1``` - Tells Hydra to use http-get request and to direct this attack at the IP address of 172.0.0.1.
+```http-get://172.0.0.1```: Tells Hydra to use http-get request and to direct this attack at the IP address of 172.0.0.1.
 
-```-t64``` - Tells Hydra how many TASKS to run in parallel per target, the more TASKS, the faster the input. This is the key to crashing the evilportal webserver (64 is the max supported number of TASKS).
+```-t64```: Tells Hydra how many TASKS to run in parallel per target, the more TASKS, the faster the input. This is the key to crashing the evilportal webserver (64 is the max supported number of TASKS).
 
 5. When connected to the evilportal and you have run the above commands, you will see Hydra start to spam login credentials at the evil portal. After a short amount of time, you will see Hydra hang and no longer attempt to spam credentials. You will also see your machine disconnect from the evil portal.
 6. You have successfully crashed the evil portal.
