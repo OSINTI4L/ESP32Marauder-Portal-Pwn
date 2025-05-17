@@ -1,4 +1,9 @@
+<div align="center">
+
 # Deauth Flipper Zero Evil Portals
+
+![image](https://github.com/user-attachments/assets/01cf9103-6a6b-4a76-a7bd-322e4a040819)
+</div>
 
 This guide will teach you to use the [aircrack-ng](https://www.kali.org/tools/aircrack-ng/) suite shipped in [Kali Linux](https://kali.org) to perform deauth attacks against Flipper Zero evil portals, kicking **ALL** clients connected to the portal off of the network.
 
@@ -18,11 +23,11 @@ We can confirm we have successfully placed our adapter into monitor mode by usin
 
 Where:
 
-```sudo``` - Gives root privileges.
+```sudo```: Gives root privileges.
 
-```airodump-ng``` - Is the tool used to scan for networks.
+```airodump-ng```: Is the tool used to scan for networks.
 
-```wlan0mon``` - Specifies wireless adapter interface to use.
+```wlan0mon```: Specifies wireless adapter interface to use.
 
 You will then see a list of scanned access points display in the terminal. Use the keyboard shortcut ```ctrl + c``` to stop scanning when you see the evil portal access point name (ESSID) listed. Highlight the entire line of data points for the access point of the evil portal and set that information aside (in something like a text editor) to be used next.
 
@@ -30,33 +35,33 @@ You will then see a list of scanned access points display in the terminal. Use t
 
 4. Now target scan the access point by using the command ```sudo airodump-ng --bssid xx:xx:xx:xx:xx:xx --channel x wlan0mon```, inputing the information of the evil portal that we have recently set aside into the "x" positions.
 
-Where,
+Where:
 
-```sudo``` - Gives root privileges.
+```sudo```: Gives root privileges.
 
-```airodump-ng``` - Is the tool used to scan for networks.
+```airodump-ng```: Is the tool used to scan for networks.
 
-```--bssid xx:xx:xx:xx:xx``` - Is the MAC address of the evil portal.
+```--bssid xx:xx:xx:xx:xx```: Is the MAC address of the evil portal.
 
-```--channel x``` - Is the channel on which the evil portal is running.
+```--channel x```: Is the channel on which the evil portal is running.
 
-```wlan0mon``` - Specifies wireless adapter interface to use.
+```wlan0mon```: Specifies wireless adapter interface to use.
 
 Begin scanning. You will see all other access points are not displayed (only the evil portal) and any clients connected to the evil portal are displayed toward the bottom of the terminal window. After a few moments stop the scan with ```ctrl + c``` and then ```clear``` the terminal window. Doing this targetted scan ensures our wiresless adapter is placed onto the correct channel.
 
 5. The final step, we will now use ```aireplay-ng``` to deauth **ALL** clients off of the evil portal network. This can be accomplished by using the command ```sudo aireplay-ng --deauth 0 -a 11:22:33:44:55:66 wlan0mon```.
 
-Where,
+Where:
 
-```sudo``` - Gives root privileges.
+```sudo```: Gives root privileges.
 
-```aireplay-ng``` - Is the tool that will inject deauthentication packets.
+```aireplay-ng```: Is the tool that will inject deauthentication packets.
 
-```--deauth 0``` - Tells the tool to send an infinite number of deauth packets.
+```--deauth 0```: Tells the tool to send an infinite number of deauth packets.
 
-```-a 11:22:33:44:55:66``` - Identifies the MAC address that the wireless adapter will spoof.
+```-a 11:22:33:44:55:66```: Identifies the MAC address that the wireless adapter will spoof.
 
-```wlan0mon``` - Specifies wireless adapter interface to use.
+```wlan0mon```: Specifies wireless adapter interface to use.
 
 You will begin to see deauthentication packets being injected by your wireless adapter via the terminal, knocking all clients off the evil portal. This can be stopped at any time by using ```ctrl + c```.
 
