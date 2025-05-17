@@ -16,7 +16,7 @@ We can confirm we have successfully placed our adapter into monitor mode by usin
 
 3. Once you have successfully placed your wireless adapter into monitor mode, it is time to scan for wireless networks. This can be accomplished with ```sudo airodump-ng wlan0mon```.
 
-Where,
+Where:
 
 ```sudo``` - Gives root privileges.
 
