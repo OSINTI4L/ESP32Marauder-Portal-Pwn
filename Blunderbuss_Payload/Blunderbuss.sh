@@ -36,11 +36,16 @@ sleep 2
 echo "! ! TAKE AIM ! !"
 echo ""
 sleep 2
-echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
-echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
-echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
+echo "! ! FIRE ! !"
 echo ""
-sleep .5
+sleep .3
+echo "(∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
+sleep .3
+echo "(∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
+sleep .3
+echo "(∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
+echo ""
+sleep .3
 
 # Payload delivery:
 cannon_shot
@@ -107,13 +112,18 @@ if [ "$IIPA" = "$PIPA" ]; then
 	echo ""
 	sleep 2
 	echo "! ! TAKE AIM ! !"
-	echo ""
+ 	echo ""
 	sleep 2
-	echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
-	echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
-	echo "! ! FIRE ! ! (∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
+	echo "! ! FIRE ! !"
 	echo ""
-	sleep .5
+	sleep .3
+	echo "(∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
+	sleep .3
+	echo "(∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
+	sleep .3
+	echo "(∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
+	echo ""
+	sleep .3
 	# Payload delivery:
 	cannon_shot
 	echo ""
