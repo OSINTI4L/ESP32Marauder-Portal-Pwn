@@ -39,14 +39,14 @@ echo ""
 sleep 2
 echo "! ! FIRE ! !"
 echo ""
-sleep .3
+sleep .1
 echo "(∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
-sleep .3
+sleep .1
 echo "(∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
-sleep .3
+sleep .1
 echo "(∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
 echo ""
-sleep .3
+sleep .1
 
 # Payload delivery:
 cannon_shot
@@ -117,21 +117,21 @@ if [ "$IIPA" = "$PIPA" ]; then
 	sleep 2
 	echo "! ! FIRE ! !"
 	echo ""
-	sleep .3
+	sleep .1
 	echo "(∩ ° ʖ °)⊃━☆ﾟ. *.*.*.*.*.*.*"
-	sleep .3
+	sleep .1
 	echo "(∩ ° ʖ °)⊃━☆ﾟ. 		     *.*.*.*.*"
-	sleep .3
+	sleep .1
 	echo "(∩ ° ʖ °)⊃━☆ﾟ. 			             *.*"
 	echo ""
-	sleep .3
+	sleep .1
 	# Payload delivery:
 	cannon_shot
 	echo ""
 	echo "Ayye..surely no skid could survive a second volley.. well done.."
 	exit 0
 else
-	echo "Ayye it seems not all skids can survive the Blunderbuss.. good work mate..
+	echo "Ayye, it seems these skids were no match for the Blunderbuss.. good work mate..
 	Some spoil$ for ye' trouble$..
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
