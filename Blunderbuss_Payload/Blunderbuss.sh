@@ -23,6 +23,7 @@ echo "
 ▙▘▐ ▌▌▛▌▛▌█▌▛▘▛▌▌▌▛▘▛▘
 ▙▘▐▖▙▌▌▌▙▌▙▖▌ ▙▌▙▌▄▌▄▌
         =^._.^= ∫"   
+echo ""
 sleep .5
 echo "G'day mateys, we be targetin' skids and pwnin' portals.."
 echo ""
@@ -100,7 +101,7 @@ echo ""
 # Store current IP address:
 PIPA=$(ip route | grep default | awk '{print $3}')
 echo "Evil portal IP address: $IIPA"
-echo "Current IP address: $PIPA"
+echo "Current access point IP address: $PIPA"
 echo ""
 
 # Compare IP addresses, If EP still up, send additional payload, else exit:
