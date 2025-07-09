@@ -17,7 +17,7 @@ When attacking devices other than the Flipper Zero with the Hydra crash method y
 
 -----
 
-## Blunderbuss.sh
+# Blunderbuss.sh
 </div>
 
 Blunderbuss is a Linux Bash script designed to crash Flipper Zero and JCMK Marauder evil portals. The script uses "wrk" to generate 100s or 1000s of HTTP GET requests that will fill the portals' username/password login parameters with "TALLY HO", until it crashes it. The attack will attempt to maintain 1000 active connections, continuously sending HTTP GET requests for a 30 second period. It will then confirm that the portal is crashed by checking that the access point IP address the user is connected to has changed, if still up, it will send another "volley of fire" and then exit. If it has crashed after the first "volley of fire", it will alert the user and exit. This will also fill some of the evil portals' log.txt files with "TALLY HO" spam.
