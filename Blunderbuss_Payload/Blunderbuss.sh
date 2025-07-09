@@ -4,7 +4,7 @@
 
 # Script requires no user interaction, simply connect to the evil portal access point and execute the script (./Blunderbuss.sh).
 
-# Requires dependency: wrk (sudo apt install wrk -y).
+# Required dependency: wrk (sudo apt install wrk -y).
 
 # Props to: Kittens | OSINTI4l (https://github.com/OSINTI4L) | PrincessPpi3 (as this is a modified Bash version of their Anti-Skid System https://github.com/PrincessPi3/ASS) | Sleep deprivation.
 
