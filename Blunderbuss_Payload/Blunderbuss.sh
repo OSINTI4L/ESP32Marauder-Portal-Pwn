@@ -6,7 +6,7 @@
 
 # Required dependency: wrk (sudo apt install wrk -y).
 
-# Props to: Kittens | OSINTI4l (https://github.com/OSINTI4L) | PrincessPpi3 (as this is a modified Bash version of their Anti-Skid System https://github.com/PrincessPi3/ASS) | Sleep deprivation.
+# Props to: Kittens | OSINTI4l (https://github.com/OSINTI4L) | PrincessPi3 (as this is a modified Bash version of their Anti-Skid System https://github.com/PrincessPi3/ASS) | Sleep deprivation.
 
 # Combating EP skids one portal at a time, matey..
 
