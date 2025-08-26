@@ -56,47 +56,17 @@ echo "Aaarghhh, that was a mighty payload indeed!!"
 echo ""
 sleep 2
 echo "Surely that has sunk'er, hold a tick while I have a look.."
-echo "20.."
-sleep 1
-echo "19.."
-sleep 1
-echo "18.."
-sleep 1
-echo "17.."
-sleep 1
-echo "16.."
-sleep 1
-echo "15.."
-sleep 1
-echo "14.."
-sleep 1
-echo "13.."
-sleep 1
-echo "12.."
-sleep 1
-echo "11.."
-sleep 1
-echo "10.."
-sleep 1
-echo "9.."
-sleep 1
-echo "8.."
-sleep 1
-echo "7.."
-sleep 1
-echo "6.."
-sleep 1
-echo "5.."
-sleep 1
-echo "4.."
-sleep 1
-echo "3.."
-sleep 1
-echo "2.."
-sleep 1
-echo "1.."
-sleep 1
+countdown="20"
+while [ $countdown -gt 0 ]; do
+    echo $countdown
+    sleep 1
+    countdown=$((countdown - 1))
+done
+
 echo ""
+echo "Checking access point.."
+echo ""
+sleep 1
 
 # Store current IP address:
 PIPA=$(ip route | grep default | awk '{print $3}')
