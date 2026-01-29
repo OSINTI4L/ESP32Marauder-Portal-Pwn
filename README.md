@@ -27,4 +27,8 @@ Blunderbuss is a Linux Bash script designed to crash Flipper Zero and JCMK Marau
 ## ↓ Blunderbuss.sh Payload ↓
 ## [Blunderbuss.sh](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Blunderbuss_Payload/Blunderbuss.sh)
 
+-----
+
+A Hak5 Pineapple Pager ported payload can be found here.
+
 </div>
