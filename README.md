@@ -15,8 +15,6 @@ When attacking devices other than the Flipper Zero with the Hydra crash method y
 ## ↓ Walk-throughs ↓
 ## [Crash](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Crash.md) | [Deauth](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Deauth.md) | [MITM](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/MITM.md) | [Spam](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Walk-Throughs/Spam.md)
 
------
-
 # Blunderbuss.sh
 </div>
 
@@ -27,8 +25,6 @@ Blunderbuss is a Linux Bash script designed to crash Flipper Zero and JCMK Marau
 ## ↓ Blunderbuss.sh Payload ↓
 ## [Blunderbuss.sh](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/Blunderbuss_Payload/Blunderbuss.sh)
 
------
-
-A Hak5 Pineapple Pager ported payload can be found [here](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/PineapplePagerPayload.sh).
+**A Hak5 Pineapple Pager ported payload can be found [here](https://github.com/OSINTI4L/ESP32Marauder-Portal-Pwn/blob/main/PineapplePagerPayload.sh).**
 
 </div>
